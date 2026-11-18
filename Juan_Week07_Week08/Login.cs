@@ -29,12 +29,23 @@ namespace Juan_Week07_Week08
 
         private void btnLogin_Click(object sender, EventArgs e)
         {
+            Users matchedUser = Users.UserList.FirstOrDefault(u => u.Username == tbUsername.Text && u.Password == tbPassword.Text);
 
+            if (matchedUser != null)
+            {
+                MessageBox.Show("Login successful!");
+            }
+            else
+            {
+                MessageBox.Show("Invalid username or password.");
+            }
         }
 
         private void btnSigup_Click(object sender, EventArgs e)
         {
-
+            Signup signupForm = new Signup();
+            signupForm.Show();
+            this.Hide();
         }
     }
 }

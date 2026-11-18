@@ -21,5 +21,22 @@ namespace Juan_Week07_Week08
         {
 
         }
+
+        private void btnRegister_Click(object sender, EventArgs e)
+        {
+            Users newUser = new Users();
+            newUser.Fullname = tbRegFullname.Text;
+            newUser.Email = tbRegEmail.Text;
+            newUser.Username = tbRegUsername.Text;
+            newUser.Password = tbRegPassword.Text;
+
+            Users.UserList.Add(newUser);
+
+            MessageBox.Show("Registration successful!");
+
+            Login loginForm = new Login();
+            loginForm.Show();
+            this.Hide();
+        }
     }
 }

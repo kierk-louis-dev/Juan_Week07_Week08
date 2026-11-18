@@ -43,7 +43,7 @@
             // label1
             // 
             label1.AutoSize = true;
-            label1.Location = new Point(199, 204);
+            label1.Location = new Point(191, 204);
             label1.Name = "label1";
             label1.Size = new Size(60, 15);
             label1.TabIndex = 0;
@@ -52,7 +52,7 @@
             // label2
             // 
             label2.AutoSize = true;
-            label2.Location = new Point(202, 237);
+            label2.Location = new Point(191, 245);
             label2.Name = "label2";
             label2.Size = new Size(57, 15);
             label2.TabIndex = 1;
@@ -77,24 +77,25 @@
             // 
             // tbRegPassword
             // 
-            tbRegPassword.Location = new Point(270, 234);
+            tbRegPassword.Location = new Point(270, 237);
             tbRegPassword.Name = "tbRegPassword";
             tbRegPassword.Size = new Size(185, 23);
             tbRegPassword.TabIndex = 4;
             // 
             // btnRegister
             // 
-            btnRegister.Location = new Point(324, 263);
+            btnRegister.Location = new Point(325, 278);
             btnRegister.Name = "btnRegister";
             btnRegister.Size = new Size(75, 23);
             btnRegister.TabIndex = 5;
             btnRegister.Text = "Register";
             btnRegister.UseVisualStyleBackColor = true;
+            btnRegister.Click += btnRegister_Click;
             // 
             // label4
             // 
             label4.AutoSize = true;
-            label4.Location = new Point(199, 166);
+            label4.Location = new Point(215, 166);
             label4.Name = "label4";
             label4.Size = new Size(36, 15);
             label4.TabIndex = 6;
@@ -104,7 +105,7 @@
             // label5
             // 
             label5.AutoSize = true;
-            label5.Location = new Point(199, 127);
+            label5.Location = new Point(195, 127);
             label5.Name = "label5";
             label5.Size = new Size(56, 15);
             label5.TabIndex = 7;
