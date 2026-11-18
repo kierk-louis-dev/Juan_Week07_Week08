@@ -16,5 +16,25 @@ namespace Juan_Week07_Week08
         {
             InitializeComponent();
         }
+
+        private void tbUsername_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void tbPassword_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnLogin_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnSigup_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

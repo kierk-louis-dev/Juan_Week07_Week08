@@ -61,6 +61,7 @@
             tbUsername.Name = "tbUsername";
             tbUsername.Size = new Size(215, 23);
             tbUsername.TabIndex = 2;
+            tbUsername.TextChanged += tbUsername_TextChanged;
             // 
             // tbPassword
             // 
@@ -69,6 +70,7 @@
             tbPassword.Size = new Size(215, 23);
             tbPassword.TabIndex = 3;
             tbPassword.UseSystemPasswordChar = true;
+            tbPassword.TextChanged += tbPassword_TextChanged;
             // 
             // btnLogin
             // 
@@ -78,6 +80,7 @@
             btnLogin.TabIndex = 4;
             btnLogin.Text = "Login";
             btnLogin.UseVisualStyleBackColor = true;
+            btnLogin.Click += btnLogin_Click;
             // 
             // btnSigup
             // 
@@ -87,6 +90,7 @@
             btnSigup.TabIndex = 5;
             btnSigup.Text = "Signup";
             btnSigup.UseVisualStyleBackColor = true;
+            btnSigup.Click += btnSigup_Click;
             // 
             // lblWelcome
             // 
